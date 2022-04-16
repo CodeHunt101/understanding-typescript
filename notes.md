@@ -14,3 +14,4 @@ To compile, run `tsc <file name>`
 - boolean (just these two, no "truthy/falsy" values)
 - object
 - array
+- tuple

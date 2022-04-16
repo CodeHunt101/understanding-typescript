@@ -10,3 +10,7 @@ Using types
 Array types
 
 - any[] helps you declare an array of any value. Not to use often.
+
+Tuple types
+
+- push values are an exception. They can be added to the tuple which will become an array
