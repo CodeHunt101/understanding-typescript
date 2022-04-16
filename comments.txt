@@ -1,2 +1,8 @@
+Installation
+
 - run tsc to compile
 - remmeber to include the compiled js instead of the ts file
+
+Using types
+
+- JavaScript uses dynamic types (resolved at runtime) whereas TypeScript uses "static types" (set during development)

@@ -12,3 +12,5 @@ To compile, run `tsc <file name>`
 - number
 - string
 - boolean (just these two, no "truthy/falsy" values)
+- object
+- array
