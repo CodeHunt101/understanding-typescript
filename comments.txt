@@ -6,3 +6,7 @@ Installation
 Using types
 
 - JavaScript uses dynamic types (resolved at runtime) whereas TypeScript uses "static types" (set during development)
+
+Array types
+
+- any[] helps you declare an array of any value. Not to use often.
