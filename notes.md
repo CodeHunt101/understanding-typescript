@@ -5,7 +5,7 @@
 ```
 npm i -g typescript
 ```
-To compile run `tsc <file name>`
+To compile, run `tsc <file name>`
 
 ## Core Types
 

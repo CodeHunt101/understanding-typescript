@@ -1,0 +1,2 @@
+- run tsc to compile
+- remmeber to include the compiled js instead of the ts file
