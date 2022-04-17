@@ -22,3 +22,6 @@ To compile, run `tsc <file name>`
 
 - Represented by pipes "|". They're a combination of types.
 
+## Liteal Types
+
+- You can assign your own property values
