@@ -16,3 +16,9 @@ To compile, run `tsc <file name>`
 - array
 - tuple
 - enum (enum { NEW, OLD }) (Added by TypeScript: Automatically enumerated global constant identifiers)
+- any
+
+## Union Types
+
+- Represented by pipes "|". They're a combination of types.
+
