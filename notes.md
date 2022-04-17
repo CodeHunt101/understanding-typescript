@@ -50,3 +50,13 @@ let combineValues: (a: number, b: number) => number
 ### Unknown type
 
 - It's similar to type `any` but it will be more restrictive when combining it with other variable types
+
+### Never type
+
+- In some situations it is literally impossible to return a value, in these cases, TypeScript understands it as a void type, but you can specify it will **never** return any values.
+  
+```ts
+function generateError(message: string, code: number): never {
+  throw {message: message, errorCode: code}
+}
+```
