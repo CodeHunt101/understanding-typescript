@@ -14,3 +14,7 @@ Array types
 Tuple types
 
 - push values are an exception. They can be added to the tuple which will become an array
+
+Enum types
+
+-Often you'll see enums with all-uppercase values, but that's not a must-do

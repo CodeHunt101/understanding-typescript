@@ -15,3 +15,4 @@ To compile, run `tsc <file name>`
 - object
 - array
 - tuple
+- enum (enum { NEW, OLD }) (Added by TypeScript: Automatically enumerated global constant identifiers)
