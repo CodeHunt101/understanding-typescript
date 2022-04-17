@@ -37,3 +37,16 @@ To compile, run `tsc <file name>`
 - You can specifiy a type to return from a function, but it's better to let TypeScript figure it out.
 - type void means a function doesn't return anything. Eg: it just console log or permorm internal tasks.
 - Don't confuse it with undefined type
+
+### Function types
+
+- We can specify the argument types and the return type of a function
+- Here we tell that the next variable will take a function that accepts two number types as parameters and returns a number:
+
+```ts
+let combineValues: (a: number, b: number) => number
+```
+
+### Unknown type
+
+- It's similar to type `any` but it will be more restrictive when combining it with other variable types
