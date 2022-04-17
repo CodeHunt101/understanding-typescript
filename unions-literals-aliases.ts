@@ -1,8 +1,10 @@
 // Union types (pipes |) and Literal types
 
+type Combinable = number | string // Type alias
+
 function combine(
-  input1: number | string,
-  input2: number | string,
+  input1: Combinable,
+  input2: Combinable,
   resultConversion: 'as-number' | 'as-text' // Literal types with union
 ) {
   let result

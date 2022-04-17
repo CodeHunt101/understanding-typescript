@@ -7,7 +7,9 @@ npm i -g typescript
 ```
 To compile, run `tsc <file name>`
 
-## Core Types
+## Types
+
+### Core Types
 
 - number
 - string
@@ -18,10 +20,14 @@ To compile, run `tsc <file name>`
 - enum (enum { NEW, OLD }) (Added by TypeScript: Automatically enumerated global constant identifiers)
 - any
 
-## Union Types
+### Union Types
 
 - Represented by pipes "|". They're a combination of types.
 
-## Liteal Types
+### Liteal Types
 
 - You can assign your own property values
+
+### Aliases
+
+- You can creating custom types by adding aliases to refactor and simplify code
