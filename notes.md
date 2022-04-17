@@ -26,8 +26,14 @@ To compile, run `tsc <file name>`
 
 ### Liteal Types
 
-- You can assign your own property values
+- You can assign your own property values.
 
 ### Aliases
 
-- You can creating custom types by adding aliases to refactor and simplify code
+- You can creating custom types by adding aliases to refactor and simplify code.
+
+### Function Return Types and Void
+
+- You can specifiy a type to return from a function, but it's better to let TypeScript figure it out.
+- type void means a function doesn't return anything. Eg: it just console log or permorm internal tasks.
+- Don't confuse it with undefined type

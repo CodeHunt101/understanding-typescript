@@ -17,4 +17,8 @@ Tuple types
 
 Enum types
 
--Often you'll see enums with all-uppercase values, but that's not a must-do
+- Often you'll see enums with all-uppercase values, but that's not a must-do
+
+Function return types and voids
+
+- Void means there isn't a return statement. No return.
