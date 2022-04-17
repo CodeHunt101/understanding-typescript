@@ -24,7 +24,7 @@ To compile, run `tsc <file name>`
 
 - Represented by pipes "|". They're a combination of types.
 
-### Liteal Types
+### Literal Types
 
 - You can assign your own property values.
 
@@ -59,4 +59,50 @@ let combineValues: (a: number, b: number) => number
 function generateError(message: string, code: number): never {
   throw {message: message, errorCode: code}
 }
+```
+
+## The TypeScript Compiler: configuring & using it
+
+### Watch Mode
+
+- There's no need to run `tsc <file name>` every time you make a new change.
+- There's an option that let the user see the changes in real time, which is the __Watch Mode__
+- In order to run Watch Mode, run:
+
+```
+tsc app.ts --watch
+```
+
+### Compiling the entire project
+
+- Usually, on bigger projects. You'll have to run more than one TypeScript file.
+- In order to run __Watch Mode for the entire project__, run:
+
+```
+tsc --init
+```
+
+- To compile all files, run:
+
+```
+tsc
+```
+
+### Include and exclude files
+
+- Check the configuration file `tsconfing.json` and add new keys to include and exclude.
+-To exclude:
+```json
+  // Here we are excluding analytics.ts from compilation
+  "exclude": [
+    "analytics.ts"
+  ]
+```
+
+- To include:
+```json
+  // Here we are including app.ts for compilation
+  "include": [
+    "app.ts"
+  ]
 ```
